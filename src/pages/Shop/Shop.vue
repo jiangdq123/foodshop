@@ -1,12 +1,4 @@
 <template>
-  <!-- <div id="shop">
-      <span @click="$router.back()">返回</span>
-      <a href="javascript:;" :class="{on:'/shop/goods'===$route.path}" @click="goTo('/shop/goods')">商品</a>
-      <a href="javascript:;" :class="{on:'/shop/ratings'===$route.path}" @click="goTo('/shop/ratings')">评价</a>
-      <a href="javascript:;" :class="{on:'/shop/info'===$route.path}" @click="goTo('/shop/info')">信息</a>
-      <router-view></router-view>
-    shop
-  </div> -->
   <div>
     <ShopHeader/>
     <div class="tab">

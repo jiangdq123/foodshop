@@ -71,7 +71,7 @@ export default {
    ShopCart
   },
   mounted () {
-    this.$store.dispatch('getShopGoods',() => {
+      this.$store.dispatch('getShopGoods',() => {
       // 此回调函数在数据更新后执行
       this.$nextTick(() => {//数据更新显示后
         this._initScroll()
@@ -114,7 +114,7 @@ export default {
       let top = 0
       tops.push(top)
       // 收集 找到所有分类的li
-      const lis = this.$refs.foodUl.children
+      const lis = this.$refs.foodsUl.children
       Array.prototype.slice.call(lis).forEach(li => {
         top += li.clientHight
         tops.push(top)

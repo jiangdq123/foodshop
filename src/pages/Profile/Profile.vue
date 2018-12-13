@@ -1,10 +1,4 @@
 <template>
-  <!-- <div id="profile">
-    <HeaderTop :title="title"></HeaderTop>
-    <div>
-      <router-link to='/login'>登录</router-link>
-    </div>
-  </div> -->
   <section class="profile">
     <HeaderTop title="我的"/>
     <section class="profile-number">

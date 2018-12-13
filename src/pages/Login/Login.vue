@@ -46,6 +46,7 @@
                 <span class="switch_text">{{showPwd? '显示':'隐藏'}}</span>
               </div>
             </section>
+            <!-- 验证码 -->
             <section class="login_message">
               <input type="text" maxlength="11" placeholder="验证码" v-model="captcha">
               <img class="get_verification" src="http://localhost:4000/captcha" alt="captcha" @click="getCaptcha" ref="captcha">

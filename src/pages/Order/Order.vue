@@ -1,7 +1,4 @@
 <template>
-  <!-- <div id="order">
-    <HeaderTop :title="title"></HeaderTop>
-  </div> -->
   <section class="order">
     <HeaderTop title='订单列表'/>
     <section class="order_no_login" v-if="!this.$store.state.userInfo._id">

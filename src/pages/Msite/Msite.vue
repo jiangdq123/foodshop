@@ -106,8 +106,9 @@ export default {
       this.$nextTick(() => { // 一旦界面更新立即调用(要写在数据更新之后)
         // 创建一个swiper实例对象实现轮播
         new Swiper('.swiper-container',{
-          loop: true, // 循环轮播
-          // 如果需要分页器
+          // 循环轮播
+          loop: true, 
+          // 分页器
           pagination: {
             el: '.swiper-pagination'
           }

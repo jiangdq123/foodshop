@@ -1,10 +1,4 @@
 <template>
-  <!-- <div id="search">
-    <HeaderTop :title="title">
-      <span slot="search">O</span>
-      <span slot="login">登录/注册</span>
-    </HeaderTop>
-  </div> -->
   <section class="search">
     <HeaderTop title="搜索"/>
     <form class="search_form" @submit.prevent='search'>

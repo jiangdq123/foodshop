@@ -1,9 +1,5 @@
 <template>
   <footer class="footer_guide border-1px">
-    <!-- <a href="javascript:;" class="guide_item" :class="{on:'/msite'===$route.path}" @click="goTo('/msite')">外卖</a>
-    <a href="javascript:;" class="guide_item" :class="{on:'/search'===$route.path}" @click="goTo('/search')">搜索</a>
-    <a href="javascript:;" class="guide_item" :class="{on:'/order'===$route.path}" @click="goTo('/order')">订单</a>
-    <a href="javascript:;" class="guide_item" :class="{on:'/profile'===$route.path}" @click="goTo('/profile')">我的</a> -->
     <div class="guide_item" @click="goTo('/msite')" :class="{on:'/msite'===$route.path}">
       <span class="item_icon">
         <i class="iconfont icon-waimai"></i>

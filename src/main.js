@@ -10,6 +10,9 @@ import 'mint-ui/lib/style.css';
 import loading from './common/imgs/1.gif'
 import {Button} from 'mint-ui'
 import './filters'
+import FastClick from 'fastclick'
+
+FastClick.attach(document.body)
 
 require('./mock/mockServer.js')
 Vue.use(VueLazyload,{
